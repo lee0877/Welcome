@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+	<title>이정현의 포트폴리오 입니다.</title>
+	
+	<style>
+		*{
+			margin:0;
+			padding: 0;
+		}
+
+		header{
+			width: 100%;
+			height: 40px;
+			background-color: #35a2fa;
+	
+		}
+
+		header #header_content{
+			width: 980px;
+			height: 40px;
+			margin: 0 auto;
+			text-align: center;
+			font-size: 20px;
+			background-color: #35a2fa;
+			padding-top: 5px;
+
+		}
+
+		#main_box{
+			width: 980px;
+			margin: 0 auto;
+		}
+
+		
+		#main_box main{
+			width:980px;
+			height: 600px;
+			float: left;
+			background-color: #ffffff;
+		}
+
+
+		#main_boxx{
+			width: 980px;
+			margin: 0 auto;
+		}
+
+		
+		#main_boxx main{
+			width:980px;
+			height: 660px;
+			float: left;
+			background-color: #ffffff;
+		}
+
+
+		#mainx{
+			font-size: 54px;
+			padding-top: 25%;
+			font-weight: bold;
+			
+		}
+		
+	
+
+		#main1{
+			font-size: 54px;
+			padding-top: 25%;
+			font-weight: bold;
+			font-family: "HY헤드라인M";
+
+		}
+		
+		footer{
+			width: 100%;
+			height: 50px;
+			clear:both;
+			background-color: #35a2fa;
+		}
+
+		footer #footer_content{
+			width:980px;
+			height: 50px;
+			margin:0 auto;
+			background-color: #35a2fa;
+			text-align: center;
+			font-family: "HY헤드라인M";
+			font-size: 13px;
+		}
+
+		a:link{
+			color:#0000ff;
+			text-decoration: none;
+		}
+
+		a:visited{
+			color: #ffffff;
+		}
+
+		a:hover{
+			color: #fbdbf2;
+			font-weight: bold;
+			text-decoration:none;
+		}
+
+		a:active{
+			color: #00ffff;
+		}
+
+		@keyframes cursor{
+		  50%{ border-color: transparent; }
+		}
+
+		.text{
+		/*font-family: "HY헤드라인M";*/
+		  display: table-cell;
+		  vertical-align: middle;
+		  font-size: 55px;
+		  height: 32px;
+		  border-right: .05em solid black;
+		  animation: cursor 0.5s ease infinite;
+		}
+
+		/*#main2_img{
+			padding: 15px 0 0 24px;
+			float: left;
+		}
+		*/
+
+		 .main2 ul{
+		 	font-size: 18px;
+		 	line-height: 150%;
+		 	font-family: "HY헤드라인M";
+		 	padding-top: 30px;
+
+
+		}
+
+		.main2 li{
+			display: inline;
+		}
+
+		.main2{
+			float: left;
+			margin:5px;
+
+		}
+
+		.main2 img{
+			display: block;
+		}
+
+		.clear{
+			clear:left;
+		}
+
+		#bold{
+			font-weight: bolder;
+		}
+
+		.main3{
+			border:solid 3px #000000;
+			float: left;
+			margin: 5px;
+		}
+
+		.main3 img{
+			display: block;
+		}
+
+		#hw_box{
+			width: 220px;
+			height: 120px;
+			border:solid 2px #bbbbbb;
+			border-radius: 15px;padding-top: 
+			margin:10px 0 0px 10px;
+			padding: 10px 0 0 15px;
+			background-color: #e1c3f6;
+		
+		}
+
+		#btn_o, #btn_x{
+			display: inline-block;
+			vertical-align: top;
+
+		}
+
+		#btn_o button{
+			margin-left: 5px;
+			padding:12px;
+			border-radius: 5px;
+		}
+
+			#btn_x button{
+			margin-left: 5px;
+			padding:12px;
+			border-radius: 5px;
+		}
+
+		#main4{
+			font-size: 50px;
+			font-weight: bolder;
+		}
+
+		 .main44 ul{
+		 	font-size: 18px;
+		 	line-height: 150%;
+		 	font-family: "HY헤드라인M";
+		 	padding-top: 30px;
+		 	line-height: 200%;
+
+
+		}
+
+		.main44 li{
+			display: inline;
+		}
+
+		.main44{
+			float: left;
+			margin:5px;
+
+		}
+
+		.main44 img{
+			display: block;
+		}	
+
+
+	</style>
+</head>
+<body>
+
+<header>
+	<div id = "header_content">
+		<a href="file:///C:/Users/fkfkw/Desktop/html%EC%97%B0%EC%8A%B5%EC%9E%A5/%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94.html"><img src="img/packman.png" width ="20" height="20"></a>
+
+		<a href="file:///C:/Users/fkfkw/Desktop/html%EC%97%B0%EC%8A%B5%EC%9E%A5/%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94.html">Hello</a>
+	</div>
+</header>
+
+<section id = "main_boxx">
+
+	<main><div id = "mainx">
+		<h1 class = "text"></h1>
+		<script>
+			const content = "안녕하세요! 저는 이정현입니다."
+			//const content = "front-end개발자를 꿈꾸고 있습니다."
+			const text = document.querySelector(".text")
+
+			let index = 0;
+			 
+			function typing(){
+			  text.textContent += content[index++]
+			  if(index > content.length){
+			    text.textContent = ""
+			    index = 0;
+			  }
+			}
+			setInterval(typing, 200)
+		</script>
+
+
+		<h6>_________________________________________________________</h6>
+
+	</div></main>
+
+</section>
+
+<section id = "main_box">
+
+	<main>
+	<div class = "main2">
+		<img src = "img/person.png" width="350" height="300">
+	</div>
+
+	<div class = "main2">
+		<br>
+		<br>
+		<h1>JungHyun Lee</h1>
+	<ul>
+		<li>Front-end 개발자를 꿈꾸는 <span id ="bold">이정현</span>입니다.</li>
+		<div class ="clear"></div>
+		<li>단순하며 편리성을 지닌 모든이가 사용하기 쉬운 UI</li>
+		<div class ="clear"></div>
+		<li>인터넷 소외 계층인 고령층도 쉽고 간편하게 사용할 수 있는 UI</li>
+		<div class ="clear"></div>
+		를 만들고 싶습니다.</li>
+		
+	</ul>
+</div>
+
+<div class ="clear"></div>
+
+	<div class ="main2">
+		<ul>
+			<li>기술/스택</li>
+			<div class ="clear"></div>
+			<li>C&nbsp;&nbsp;&nbsp;●○○○○</li>&nbsp;
+			<li>HTML/CSS&nbsp;&nbsp;&nbsp;●●●○○</li>&nbsp;
+			<li>PYTHON&nbsp;&nbsp;&nbsp;●●○○○</li>&nbsp;
+			<div class ="clear"></div>
+			<li>JAVA&nbsp;&nbsp;&nbsp;●●○○○</li>&nbsp;
+			<li>SKETCH&nbsp;&nbsp;&nbsp;●●●●○</li>&nbsp;
+			<li>JAVASCRIPT&nbsp;&nbsp;&nbsp;●○○○○</li>&nbsp;
+		</ul>
+	</div>
+
+<div class ="clear"></div>
+	
+	<div class ="main2">
+		<ul>
+			<li>다양한 실습장치 경험✔</li>
+			<div class ="clear"></div>
+			<li>ARDUINO&nbsp;|&nbsp;</li>
+			<li>RASPBERRY PI&nbsp;|&nbsp;</li>
+			<li>WOW-4044(사물인터넷 실습 장치)&nbsp;|&nbsp;</li>
+			<li>FPGA&nbsp;|&nbsp;</li>
+			<li>ATMEGA128A</li>
+
+		</ul>
+	</div>
+	</main>
+
+</section>
+
+<section id = "main_box">
+	
+	<main>
+
+		<div class ="main3">
+			<img src = "img/sch1.jpg" width="120" height="160">
+		</div>
+		<div class ="main3">
+			<img src = "img/sch2.jpg" width="120">
+		</div>
+		<div class ="main3">
+			<img src = "img/sch3.jpg" width="120" height="160">
+		</div>
+
+		<div class ="main3">
+			<img src = "img/sch4.jpg" width="120">
+		</div>
+		<div class ="main3">
+			<img src = "img/sch5.jpg" width="120">
+		</div>
+		<div class ="main3">
+			<img src = "img/sch6.jpg" width="120">
+		</div>
+
+		
+
+	<div class ="clear"></div>
+	
+	
+
+	<div class ="main2">
+	<ul>
+		<li>Hard Ware와 UI를 접목시켜 H/W를 작동시키는 UI제작 가능</li>
+	</ul>	
+	</div>
+
+	<div class ="clear"></div>
+	<br>
+	
+
+	<div class ="main3">
+			<img src = "img/motor.jpg" width="220" height="200">
+		</div>
+
+	<div class = "main2">
+		<br>
+		<br>
+		<form>
+			<div id ="hw_box">
+				<h4>예시</h4>
+				<h2>[HW]모터 구동</h2>
+				<div class = "main2">
+					<div id = "btn_o">
+						<BUTTON>구동 O</BUTTON>
+					</div>
+				</div>
+
+				<div class = "main2">
+					<div id = "btn_x">
+						<BUTTON>구동 X</BUTTON>
+					</div>
+				</div>
+			</div>
+
+		</form>
+	</div>
+	<div class ="clear"></div>
+
+	<div class = "main2">
+		<h4>☑️리눅스 환경에서 python을 이용하여 만든 프로그램입니다.</h4>
+	</div>
+	</main>
+
+</section>
+
+<section id = "main_box">
+	
+	<main>
+		<h1>_________________________________________________________________________________________</h1>
+		<br>
+		<div id = "main4">DREAM</div>
+		<br>
+		<div class ="main44">
+		<ul>
+			<li>저는 모든 사람들이 제가 만든 UI안에서 평등하길 바랍니다. </li>
+			<div class ="clear"></div>
+			<li>많은 것들이 기계화되는 현대사회에 소외되는 사람들을 보았습니다.</li>
+			<div class ="clear"></div>
+			<li>저는 그들이 많은 것들을 포기하고 살아가는 것을 보았습니다.</li>
+			<div class ="clear"></div>
+			<li>그렇게 소외되는 사람들에게 새로운 세상을 열어주고 싶습니다!</li>
+			
+
+		</ul>
+	</div>
+
+	<div class = "main2">
+		<img src = "img/me.png" width="400" height="400">
+	</div>
+	</main>
+
+</section>
+
+<section id = "main_box">
+	
+	<main>
+		<h1>_________________________________________________________________________________________</h1>
+		<br>
+		<div id = "main4">CONTACT</div>
+		<br>
+		<div class = "main2">
+			<img src = "img/call.png" width="400" height="400">
+		</div>
+
+		<div class ="main44">
+		<ul>
+			<li>📞 : 010 - 0000 - 0000</li>
+			<div class ="clear"></div>
+			<li>✉️ : thanks@forcoming.com</li>
+			<div class ="clear"></div>
+			<li>😀I hope to see you soon😀</li>
+		</ul>
+
+
+
+		
+	</main>
+
+</section>
+<footer>
+	<div id = "footer_content">
+		😀방문해주셔서 감사합니다😀
+		<br>
+		🍀HAVE A NICE DAY🍀
+	</div>
+</footer>
+
+</body>
+</html>
